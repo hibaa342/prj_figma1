@@ -81,7 +81,7 @@ body
     height: 30px;
     width: 75px;
     border: none;
-    /*for the text written inside*/
+    /for the text written inside/
     color: white;
     font-size: small;
     font-family: DM Sans;
@@ -402,11 +402,32 @@ body
     width: 41px;
     background-image: url(./assets/images/page5/“.png);
 }
-.pic_one
+.star
 {
-    height: 204px;
-    width: 442px;
-    background-image: url(./assets/images/page5/Group\ 38.png);
+    height: 18px;
+    width: 18px;
+    background-image: url(./assets/images/page5/star\ \ 4.png);
+}
+.five_stars
+{
+    display: flex;
+    gap: 5px;
+}
+.person
+{
+    height: 56px;
+    width: 56px;
+    background-image: url(./assets/images/page5/Photo.png)
+}
+.employee
+{
+    display: flex;
+    gap: 7px;
+    align-items: center;
+}
+.dark_blue3
+{
+    color: #034D82;
 }
 .cercle_bleu
 {
@@ -431,7 +452,7 @@ body
 {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 20px;
 }
 
 .right_arrow
@@ -457,7 +478,7 @@ body
 {
     height: 32px;
     width: 34.17px;
-    background-image: url(./assets/images/page6/emoji.jpg);
+    background-image: url(./assets/images/page6/Item.png);
 }
 .h1_emoji
 {
@@ -528,13 +549,12 @@ body
 .top{
     display: flex;
     gap: 80px;
-    align-items: center;
+    align-items: start;
 }
 .bottom
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 .description
 {
@@ -586,7 +606,7 @@ body
     gap: 10px;
 }
 
-h3
+.h3_lastpage
 {
     color: white;
 }
@@ -598,6 +618,7 @@ h3
 .heart
 {
     background-image: url(./assets/images/page7/Heart.png);
+   margin-left: 620px;
 }
 .rond3
 {
@@ -609,4 +630,3 @@ h3
 {
     text-align: center;
 }
-
